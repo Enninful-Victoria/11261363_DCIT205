@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UG-Department of Computer Science</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+    <div class="heroSection">
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="#"><img height="60" width="70" src="./assets/ug.png" /></a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </label>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="clubs.html">Club</a></li>
+            <li><a href="staff.html">Staffs</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+            <!-- <div class="buttons">
+                <a href="#" class="signin">Sign In</a>
+                <a href="#" class="signup">Sign Up</a>
+            </div> -->
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero">
+            <h2>Department of Computer Science</h2>
+            <p>
+                Join us in the exciting world of programming and turn your ideas into
+                reality. Unlock the world of endless possibilities - learn to code and
+                shape the digital future with us.
+            </p>
+            <div class="buttons">
+                <a href="admission.html" class="join">Join Now</a>
+                <a href="about.html" class="learn">Learn More</a>
+            </div>
+        </div>
+        <div class="img">
+            <img src="https://www.codingnepalweb.com/demos/create-responsive-website-html-css/hero-bg.png"
+                alt="hero image" />
+        </div>
+    </section>
+    </div>
+    <style>
+        .gridContainer{
+            margin: 50px  auto;
+            display: grid;
+            grid-template-columns: 50% 50% ;
+            column-gap: 70px;
+            row-gap: 100px;
+            width: 80%;
+        }
+        h2{
+            font-size: xx-large;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .para{
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: gray;
+            line-height: 2rem;
+        }
+
+        .home-text{
+            margin: auto;
+        }
+        @media screen and (max-width: 1023px){
+            .gridContainer{
+                grid-template-columns: auto;
+                row-gap: 30px;
+                width: 90%;
+            }
+        }
+    </style>
+
+    <div class="gridContainer">
+        <div ><img src="./assets/img_2.jpeg" height="100%" width="100%" /></div>
+        <div class="home-text">
+            <h2>Our Organisation</h2>
+            <p class="para">The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our
+            region and the world is profound. whether we are launching young people into a boundless future or confronting the grand
+            challenges of our time through dauntless research. UG educates more than 38,000students annually, with approximately
+            2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our
+            impact, visit our news site, UG News.</p>
+        </div>
+        
+        <div class="home-text">
+            <h2>Our Community</h2>
+            <p class="para">If you are inspired by a big challenge, you've come to the right place! The computer science community at the
+            univrersity of Ghana encourages it's people to be vibrant and brave in taking on new challenges that push boundries
+            beyond imagination.</p>
+        </div>
+        <div><img src="./assets/img_1.jpeg" height="100%" width="100%" /></div>
+        <div><img src="./assets/img_3.jpeg" height="100%" width="100%" /></div>
+        <div class="home-text">
+            <h2>Distance Education</h2>
+            <p class="para">Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and personal interaction with
+            professors through a suite of online delivery options, customizing your degree to fit your schedule. Our online
+            classroom maintains the same level of academic rigor, while providing students with more ways of learning.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Compressions</a></li>
+                    <li><a href="contact.html">Customers</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="catalog.html">Collection</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Menu</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admission.html"">Admission</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
