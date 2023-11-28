@@ -1,0 +1,22 @@
+.container {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+  margin: auto;
+  background-image: url("../assets/legon.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  line-height: 2.5rem;
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+  padding-top: 50px;
+}

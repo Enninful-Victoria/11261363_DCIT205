@@ -1,0 +1,19 @@
+.container {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+  margin: auto;
+  background-image: url("../assets/img_1.jpeg");
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  line-height: 2.5rem;
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+  padding-top: 50px;
+}
